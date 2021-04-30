@@ -1,8 +1,10 @@
-main {
+ main {
     max-width: 60%;
 }
 
 div {border: 3px solid black;}
+
+.container {background-color: cornsilk;}
 
 h1 {color:purple;}
 
@@ -11,6 +13,7 @@ font-style: strong;
 text-align: center;
 background-color: cornsilk;
 }
+
  
 .section {color: blue;
 background-color: cornsilk;}
@@ -21,3 +24,5 @@ p {padding-left: 10px;}
 h2 {font-size: 20px;
 text-align: left;
 padding-left: 5px;}
+
+nav {border: 3px solid black;}
