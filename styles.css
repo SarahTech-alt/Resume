@@ -1,6 +1,23 @@
+main {
+    max-width: 60%;
+}
+
+div {border: 3px solid black;}
+
 h1 {color:purple;}
 
-header {border:3px solid black;
+header {
 font-style: strong;
-text-align: center;}
+text-align: center;
+background-color: cornsilk;
+}
+ 
+.section {color: blue;
+background-color: cornsilk;}
 
+
+p {padding-left: 10px;}
+
+h2 {font-size: 20px;
+text-align: left;
+padding-left: 5px;}
