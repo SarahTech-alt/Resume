@@ -1,12 +1,14 @@
  main {
     max-width: 60%;
+    margin:auto;
+    width: 50%;
 }
 
-div {border: 3px solid black;}
 
 .container {background-color: cornsilk;}
 
-h1 {color:purple;}
+h1 {color:purple;
+padding-top: 5px;}
 
 header {
 font-style: strong;
@@ -14,15 +16,21 @@ text-align: center;
 background-color: cornsilk;
 }
 
+.row {border-bottom: 0.5px solid gray;}
+
+.col-sm-4 {text-align: right;
+border-right: 0.5px solid gray;}
  
 .section {color: blue;
 background-color: cornsilk;}
 
 
-p {padding-left: 10px;}
+p {font-family: Arial, Helvetica, sans-serif;}
 
 h2 {font-size: 20px;
 text-align: left;
 padding-left: 5px;}
 
-nav {border: 3px solid black;}
+img {display: block;
+    margin-left: auto;
+    margin-right: auto;}
