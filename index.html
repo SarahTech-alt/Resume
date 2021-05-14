@@ -3,13 +3,12 @@
   
 <head>
   <meta charset="UTF-8">
-  <meta name="veiwport" content="width-device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Sarah Fuoss Resume</title>
 
     <!-- Bootstrap css file -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- font awesome icons-->
     <link rel="stylesheet" href="./css/all.min.css">
@@ -21,29 +20,43 @@
 
 <body>
   <main>
-     <div class = "container">
        <header>
        <div class="row">
-         <div class="col-4">
-          <img src="img/Picture of me.jpg" class="img-fluid" alt="Profile Picture">
-        </div>
-      <div class="col-5">
-        <h1>Sarah Fuoss</h1>
-        <h2>Web Developer</h2>
-        <p class="intro">I am an aspiring developer with a passion for learning and solving problems.</p>
-      </div>
-     </div>
+           <div class="column">
+            <img href="img/Picture of me.jpg" class="img-fluid" alt="Profile Picture">
+           </div>
+           <div class="column">
+              <h1>Sarah Fuoss</h1>
+              <h2>Web Developer</h2>
+              <p class="intro">I am an aspiring developer with a passion for learning and solving problems.</p>
+           </div>
+         </div>
+         
        </header>
 
-     <div class="row">
-      <div class="col-4">
+     <div class="row" id="main-section">
+      <div class="column">
+       
         <h2 class="sectionTitle">Education</h2>
-        <p>Developer Training</p>
-        <p>Prime Academy</p>
         <p>Bachelor of Science-Chemistry</p>
-        <p>University of South Dakota</p>
-      </div>
-      <div class="col-8">
+        <p>University of South Dakota</p><br>
+        
+        <h2 class="sectionTitle">Skills</h2>
+        <p>HTML & CSS</p>
+        <p>Python</p>
+        <p>Logical Reasoning</p>
+        <p>Motivated</p><br>
+        
+         <h2 class="sectionTitle">Contact</h2>
+         <p>Phone</p>
+         <p><i class="fas fa-phone"><a href="tel:+1-763-807-2899"> (555) 555-5555</a></i></p>
+         <p>Email</p>
+         <p><i class="fas fa-paper-plane"> <a href="mailto:sfuoss@gmail.com">S.Fuoss@gmail.com</a></i></p>
+        
+       </div>
+       
+       <div class="column">
+        
         <h2 class="sectionTitle">My Experience</h2>
         <p>Laboratory Analyst 3</p>
         <p>Metropolitan Council</p>
@@ -52,35 +65,13 @@
         <li>Carried out processes to ensure adherence to procedures and requirements specified within operating procedures and the Code of Federal Regulations.</li>
         <li>Remained vigilant in learning about and complying with any changes to Environmental Protection Agency methods.</li>
         <li>Lead training efforts as a point of contact for new employees.</li></ul></p>
-      </div>
-     </div>
-
-     <div class="row">
-      <div class="col-4">
-        <h2 class="sectionTitle">Skills</h2>
-        <p>HTML & CSS</p>
-        <p>Python</p>
-        <p>Logical Reasoning</p>
-        <p>Motivated</p>
-      </div>
-      <div class="col-8">
-        <p>Laboratory Technician 2<p>
+       
+         <p>Laboratory Technician 2<p>
           <p>Metropolitan Council</p>
           <p>July 2012-April 2014</p>
          <p><ul><li>Pioneered the creation of a new method for a research and development project to meet the client's needs.</li>
         <li>Utilized the Laboratory and Information Managment System to import and export data, access quality assurance resources, complete reports, generate and modify worksheets, and record business activity.</li></ul></p>
-      </div>
-     </div>
-
-     <div class="row">
-       <div class="col-4">
-         <h2 class="sectionTitle">Contact</h2>
-         <p>Phone</p>
-         <p><i class="fas fa-phone"><a href="tel:+1-763-807-2899"> (555) 555-5555</a></i></p>
-         <p>Email</p>
-         <p><i class="fas fa-paper-plane"> <a href="mailto:sfuoss@gmail.com">S.Fuoss@gmail.com</a></i></p>
-       </div>
-       <div class="col-8">
+       
         <p>Undergraduate Research<p>
           <p>University of South Dakota</p>
           <p>July 2010-December 2011</p>
@@ -92,10 +83,11 @@
 
  </main>
 
- <!-- Jquery js file-->
- <script src="./js/jQuery.3.6.0"></script>
-
- <!-- Bootstrap file-->
- <script src="./js/bootstrap.min.js"></script>
-    </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+  
+  </body>
+</html>
 </html>
